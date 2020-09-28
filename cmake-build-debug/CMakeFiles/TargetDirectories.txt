@@ -1,3 +1,5 @@
-D:/C&C++/linked_list/cmake-build-debug/CMakeFiles/linked_list.dir
-D:/C&C++/linked_list/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C&C++/linked_list/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/C&C++/data_structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/C&C++/data_structure/cmake-build-debug/CMakeFiles/linklist.dir
+D:/C&C++/data_structure/cmake-build-debug/CMakeFiles/link_stack.dir
+D:/C&C++/data_structure/cmake-build-debug/CMakeFiles/sq_stack.dir
+D:/C&C++/data_structure/cmake-build-debug/CMakeFiles/edit_cache.dir

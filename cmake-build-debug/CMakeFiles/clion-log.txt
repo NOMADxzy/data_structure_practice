@@ -1,18 +1,4 @@
-"D:\Develop\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Develop/MINGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/Develop/MINGW/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/Develop/MINGW/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" D:\C&C++\linked_list
--- The C compiler identification is GNU 9.2.0
--- The CXX compiler identification is GNU 9.2.0
--- Check for working C compiler: C:/Develop/MINGW/bin/gcc.exe
--- Check for working C compiler: C:/Develop/MINGW/bin/gcc.exe -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: C:/Develop/MINGW/bin/g++.exe
--- Check for working CXX compiler: C:/Develop/MINGW/bin/g++.exe -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
+"D:\Develop\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Develop/MINGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/Develop/MINGW/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/Develop/MINGW/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" D:\C&C++\data_structure
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/C&C++/linked_list/cmake-build-debug
+-- Build files have been written to: D:/C&C++/data_structure/cmake-build-debug

@@ -47,24 +47,13 @@ RM = "D:\Develop\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\C&C++\linked_list"
+CMAKE_SOURCE_DIR = "D:\C&C++\data_structure"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\C&C++\linked_list\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\C&C++\data_structure\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Develop\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -77,11 +66,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\Develop\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C&C++\linked_list\cmake-build-debug\CMakeFiles" "D:\C&C++\linked_list\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C&C++\data_structure\cmake-build-debug\CMakeFiles" "D:\C&C++\data_structure\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C&C++\linked_list\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C&C++\data_structure\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -110,44 +110,124 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named linked_list
+# Target rules for targets named linklist
 
 # Build rule for target.
-linked_list: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 linked_list
-.PHONY : linked_list
+linklist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 linklist
+.PHONY : linklist
 
 # fast build rule for target.
-linked_list/fast:
-	$(MAKE) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/build
-.PHONY : linked_list/fast
+linklist/fast:
+	$(MAKE) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/build
+.PHONY : linklist/fast
 
-main.obj: main.cpp.obj
+#=============================================================================
+# Target rules for targets named link_stack
 
-.PHONY : main.obj
+# Build rule for target.
+link_stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 link_stack
+.PHONY : link_stack
+
+# fast build rule for target.
+link_stack/fast:
+	$(MAKE) -f CMakeFiles\link_stack.dir\build.make CMakeFiles/link_stack.dir/build
+.PHONY : link_stack/fast
+
+#=============================================================================
+# Target rules for targets named sq_stack
+
+# Build rule for target.
+sq_stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sq_stack
+.PHONY : sq_stack
+
+# fast build rule for target.
+sq_stack/fast:
+	$(MAKE) -f CMakeFiles\sq_stack.dir\build.make CMakeFiles/sq_stack.dir/build
+.PHONY : sq_stack/fast
+
+link_stack.obj: link_stack.cpp.obj
+
+.PHONY : link_stack.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+link_stack.cpp.obj:
+	$(MAKE) -f CMakeFiles\link_stack.dir\build.make CMakeFiles/link_stack.dir/link_stack.cpp.obj
+.PHONY : link_stack.cpp.obj
 
-main.i: main.cpp.i
+link_stack.i: link_stack.cpp.i
 
-.PHONY : main.i
+.PHONY : link_stack.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/main.cpp.i
-.PHONY : main.cpp.i
+link_stack.cpp.i:
+	$(MAKE) -f CMakeFiles\link_stack.dir\build.make CMakeFiles/link_stack.dir/link_stack.cpp.i
+.PHONY : link_stack.cpp.i
 
-main.s: main.cpp.s
+link_stack.s: link_stack.cpp.s
 
-.PHONY : main.s
+.PHONY : link_stack.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/main.cpp.s
-.PHONY : main.cpp.s
+link_stack.cpp.s:
+	$(MAKE) -f CMakeFiles\link_stack.dir\build.make CMakeFiles/link_stack.dir/link_stack.cpp.s
+.PHONY : link_stack.cpp.s
+
+linklist.obj: linklist.cpp.obj
+
+.PHONY : linklist.obj
+
+# target to build an object file
+linklist.cpp.obj:
+	$(MAKE) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/linklist.cpp.obj
+.PHONY : linklist.cpp.obj
+
+linklist.i: linklist.cpp.i
+
+.PHONY : linklist.i
+
+# target to preprocess a source file
+linklist.cpp.i:
+	$(MAKE) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/linklist.cpp.i
+.PHONY : linklist.cpp.i
+
+linklist.s: linklist.cpp.s
+
+.PHONY : linklist.s
+
+# target to generate assembly for a file
+linklist.cpp.s:
+	$(MAKE) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/linklist.cpp.s
+.PHONY : linklist.cpp.s
+
+sq_stack.obj: sq_stack.cpp.obj
+
+.PHONY : sq_stack.obj
+
+# target to build an object file
+sq_stack.cpp.obj:
+	$(MAKE) -f CMakeFiles\sq_stack.dir\build.make CMakeFiles/sq_stack.dir/sq_stack.cpp.obj
+.PHONY : sq_stack.cpp.obj
+
+sq_stack.i: sq_stack.cpp.i
+
+.PHONY : sq_stack.i
+
+# target to preprocess a source file
+sq_stack.cpp.i:
+	$(MAKE) -f CMakeFiles\sq_stack.dir\build.make CMakeFiles/sq_stack.dir/sq_stack.cpp.i
+.PHONY : sq_stack.cpp.i
+
+sq_stack.s: sq_stack.cpp.s
+
+.PHONY : sq_stack.s
+
+# target to generate assembly for a file
+sq_stack.cpp.s:
+	$(MAKE) -f CMakeFiles\sq_stack.dir\build.make CMakeFiles/sq_stack.dir/sq_stack.cpp.s
+.PHONY : sq_stack.cpp.s
 
 # Help Target
 help:
@@ -155,12 +235,20 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... linked_list
-	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... linklist
+	@echo ... link_stack
+	@echo ... sq_stack
+	@echo ... edit_cache
+	@echo ... link_stack.obj
+	@echo ... link_stack.i
+	@echo ... link_stack.s
+	@echo ... linklist.obj
+	@echo ... linklist.i
+	@echo ... linklist.s
+	@echo ... sq_stack.obj
+	@echo ... sq_stack.i
+	@echo ... sq_stack.s
 .PHONY : help
 
 

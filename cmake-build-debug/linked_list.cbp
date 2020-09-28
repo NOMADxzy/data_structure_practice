@@ -8,82 +8,172 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/C&amp;C++/linked_list/cmake-build-debug"/>
+				<Option working_dir="D:/C&amp;C++/data_structure/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="linked_list">
-				<Option output="D:/C&amp;C++/linked_list/cmake-build-debug/linked_list.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C&amp;C++/linked_list/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list"/>
-					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="linked_list/fast">
-				<Option output="D:/C&amp;C++/linked_list/cmake-build-debug/linked_list.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C&amp;C++/linked_list/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
-					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list/fast"/>
-					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/C&amp;C++/linked_list/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/C&amp;C++/linked_list/cmake-build-debug"/>
+				<Option working_dir="D:/C&amp;C++/data_structure/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/linked_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linklist">
+				<Option output="D:/C&amp;C++/data_structure/cmake-build-debug/linklist.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C&amp;C++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 linklist"/>
+					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linklist/fast">
+				<Option output="D:/C&amp;C++/data_structure/cmake-build-debug/linklist.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C&amp;C++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 linklist/fast"/>
+					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="link_stack">
+				<Option output="D:/C&amp;C++/data_structure/cmake-build-debug/link_stack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C&amp;C++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 link_stack"/>
+					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="link_stack/fast">
+				<Option output="D:/C&amp;C++/data_structure/cmake-build-debug/link_stack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C&amp;C++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 link_stack/fast"/>
+					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sq_stack">
+				<Option output="D:/C&amp;C++/data_structure/cmake-build-debug/sq_stack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C&amp;C++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 sq_stack"/>
+					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sq_stack/fast">
+				<Option output="D:/C&amp;C++/data_structure/cmake-build-debug/sq_stack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C&amp;C++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\develop\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 sq_stack/fast"/>
+					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/C&amp;C++/data_structure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Develop/MINGW/bin/mingw32-make.exe -f &quot;D:/C&amp;C++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C&amp;C++/linked_list/main.cpp">
-			<Option target="linked_list"/>
+		<Unit filename="D:/C&amp;C++/data_structure/link_stack.cpp">
+			<Option target="link_stack"/>
 		</Unit>
-		<Unit filename="D:/C&amp;C++/linked_list/CMakeLists.txt">
+		<Unit filename="D:/C&amp;C++/data_structure/linklist.cpp">
+			<Option target="linklist"/>
+		</Unit>
+		<Unit filename="D:/C&amp;C++/data_structure/sq_stack.cpp">
+			<Option target="sq_stack"/>
+		</Unit>
+		<Unit filename="D:/C&amp;C++/data_structure/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
